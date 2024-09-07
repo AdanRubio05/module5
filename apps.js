@@ -20,3 +20,7 @@ do {
 while (ii < 9) ;
 
 document.getElementById("count").innerHTML = texta ;
+
+const head = document.querySelector(".gag") ;
+
+head.classList.add(`gag`) ;
