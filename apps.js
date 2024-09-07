@@ -2,10 +2,10 @@ document.getElementById("intro").innerHTML = "In The Old Testament book, Genesis
 
 document.getElementById("originz").innerHTML = "Two of every known animal species was brought aboard. These included:"
 
-const cargo = ["Elephants, ", "Lions, ", "Dogs, ", "Cats, ", " and everything that crawls or slithers."] ;
+const cargo = ["Elephants", "Lions", "Dogs", "Cats", "and everything that crawled or slithered."] ;
 
 let text = "" ;
 for (let i = 0; i < cargo.length; i++) {
-    text += cargo[i] ;
+    text += cargo[i] + "<br><br>";
 }
 document.getElementById("animals").innerHTML = text ;
