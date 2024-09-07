@@ -22,5 +22,8 @@ while (ii < 9) ;
 document.getElementById("count").innerHTML = texta ;
 
 const head = document.querySelector(".gag") ;
+const rain = document.querySelector(".trigger") ;
 
-head.classList.add(`gag`) ;
+rain.addEventListener('toggle', function(){
+    head.classList.add(`gag`);
+}) ;
