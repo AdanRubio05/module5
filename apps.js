@@ -23,7 +23,7 @@ document.getElementById("count").innerHTML = texta ;
 
 const head = document.querySelector(".gag") ;
 const rain = document.querySelector(".trigger") ;
+const storm = document.querySelector(".body") ;
 
-rain.addEventListener('toggle', function(){
-    head.classList.add(`gag`);
-}) ;
+storm.classList.add(`body`) ;
+
