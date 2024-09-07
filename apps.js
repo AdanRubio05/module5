@@ -14,7 +14,7 @@ let texta = "" ;
 let ii = 2 ;
 
 do {
-    texta += "<br>Whoa! Look! There's " + ii + "!" ;
+    texta += "<br>Whoa, Look! There's " + ii + " animals!" ;
     ii++ ;
 }
 while (ii < 9) ;
