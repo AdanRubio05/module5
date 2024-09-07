@@ -1,9 +1,10 @@
-.gag {
-    background-color: aqua;
-    color: royalblue;
-    width: 80px;
-}
 
 .body{
     background-color: silver;
+}
+
+.change{
+    color: royalblue ;
+    background-color: aqua ;
+    width: 80px ;
 }

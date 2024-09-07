@@ -21,9 +21,12 @@ while (ii < 9) ;
 
 document.getElementById("count").innerHTML = texta ;
 
-const head = document.querySelector(".gag") ;
-const rain = document.querySelector(".trigger") ;
 const storm = document.querySelector(".body") ;
-
 storm.classList.add(`body`) ;
 
+const textb = document.querySelector('.water') ;
+const changeColor = document.querySelector('.changeColor') ;
+
+changeColor.addEventListener('click', function(){
+    textb.classList.toggle("change") ;
+})
