@@ -1,0 +1,1 @@
+document.getElementById("intro").innerHTML = "In The Old Testament book, Genesis, Noah was commanded by God to build an ark."
